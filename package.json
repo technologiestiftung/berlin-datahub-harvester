@@ -27,6 +27,7 @@
   "homepage": "https://github.com/technologiestiftung/berlin-datahub-harvester#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "pg": "^8.3.3",
     "ttn": "^2.3.3"
   },
   "devDependencies": {
