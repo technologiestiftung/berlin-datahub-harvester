@@ -2,7 +2,6 @@
   "name": "berlin-datahub-harvester",
   "version": "0.1.0",
   "description": "NodeJS Script to harvest data from TTN applications and push it into PostgreSQL DB",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -28,11 +27,11 @@
   "dependencies": {
     "express": "^4.17.1",
     "pg": "^8.3.3",
+    "pg-promise": "^10.6.1",
     "ttn": "^2.3.3"
   },
   "devDependencies": {
     "dotenv-flow": "^3.2.0",
-    "eslint": "^7.9.0",
     "node": "^14.12.0",
     "nodemon": "^2.0.4",
     "prettier": "^2.1.2"
