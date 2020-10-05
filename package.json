@@ -31,9 +31,9 @@
     "ttn": "^2.3.3"
   },
   "devDependencies": {
-    "dotenv-flow": "^3.2.0",
-    "node": "^14.12.0",
-    "nodemon": "^2.0.4",
-    "prettier": "^2.1.2"
+    "dotenv-flow": "3.2.0",
+    "node": "14.12.0",
+    "nodemon": "2.0.4",
+    "prettier": "2.1.2"
   }
 }
